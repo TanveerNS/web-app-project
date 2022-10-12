@@ -1,5 +1,16 @@
 export interface Room {
-    totalRooms?: number | undefined;
-    availableRooms?: number | undefined;
-    bookedRooms?: number | undefined;
+    totalRooms: number ;
+    availableRooms: number ;
+    bookedRooms: number ;
+}
+
+export interface RoomLists {
+    roomNumber: number;
+    roomType: string;
+    amenties: string;
+    price: number;
+    photos: string;
+    checkinTime: Date;
+    checkoutTime: Date;
+    rating: number;
 }

@@ -1,0 +1,11 @@
+.even{
+    background-color: rgb(92, 156, 208);
+    color: white;
+}
+.odd{
+    background-color: gray;
+    color: white;
+}
+.even td, .odd td{
+    padding: 12px 8px;
+}
