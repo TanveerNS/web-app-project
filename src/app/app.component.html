@@ -1,11 +1,9 @@
-<h1>App Component</h1>
-
-<div [ngSwitch]="role">
-    <div *ngSwitchCase="'User'">Welcome User!</div>
-    <div *ngSwitchCase="'Admin'">
-        <app-rooms></app-rooms>
-    </div>
-    <div *ngSwitchDefault>
-        You are not authorized to view this page!
+<app-header></app-header>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <app-recipes></app-recipes>
+            <app-shopping-list></app-shopping-list>
+        </div>
     </div>
 </div>
